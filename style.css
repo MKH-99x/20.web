@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+
+    background-image: url('/img11.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+h1{
+    color: rgb(123, 255, 0);
+    font-size: 3rem;
+}
+.box1{
+    height: auto;
+    max-width: 25vw;
+    padding: 10px;
+    
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+
+    border: none;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 25px;
+}
+.l{
+    color:yellow;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+.i{
+    width: 100%;
+    height: 5vh;
+    padding: 3px;
+    margin: 10px 0;
+
+    background-color: rgb(177, 177, 177);
+    border-radius: 20px;
+    border: none;
+    color: bl;
+    
+}
+.i:focus{
+    outline: none;
+}
+.i:hover{
+    background-color: darkcyan;
+    border: 2px solid aqua;
+}
+.pp{
+    margin-bottom: 30px;
+}
+p{
+    text-align: center;    
+}
+a{
+    text-decoration: none;
+}
+.b{
+    width: 100%;
+    height: 38px;
+    padding: 5px;
+    margin: 10px 0;
+
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    color: white;
+
+    font-size: 17px;
+}
+.b:hover{
+    background-color: darkblue;
+    border: 2px solid aqua;
+}
+.box2{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    margin-top: 10px;
+}
+img{
+    border-radius: 50%;     /*new*/
+    object-fit: cover;
+}
+.p0{
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+
+    position: absolute;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 600px) {
+    body{
+    background-image: url('/img11.1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+}
+
